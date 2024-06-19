@@ -17,28 +17,21 @@ if selezione == "sì":
 
 
 #parte 2
-inventario={"Papera", "Anello", "Bracciale"}
 
-inventario1={
-    "nome": "Papera",
-    "prezzo": "18 euro",
-    "quantità": "2 pezzi"
-}
+Papera=["Papera di gomma", "5 euro", "20 pezzi"]
+Anello=["Anello di oro","50 euro", "10 pezzi"]
+Bracciale=["Bracciale in acciaio", "15 euro", "5 pezzi"]
 
-inventrio_2={
-    "nome": "Anello",
-    "prezzo": "20 euro",
-    "quantità": "4 pezzi"
-}
+#aggiunta
+inventario.append("osso")
+inventario.append("barca")
+#modifica
+Papera[1]= "6 euro"
+Anello[2]= "20 pezzi"
+#rimuove
+Bracciale.remove("5 pezzi")
 
-inventrio_3={
-    "nome": "Bracciale",
-    "prezzo": "8 euro",
-    "quantità": "20 pezzi"
-}
 
-inventario[4]="osso"
-inventario[5]="barca"
 
 
 
