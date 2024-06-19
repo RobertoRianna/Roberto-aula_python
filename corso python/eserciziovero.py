@@ -1,3 +1,4 @@
+#parte 1
 controllo= True 
 selezione= input("Vuoi iniziare?")
 
@@ -18,18 +19,24 @@ if selezione == "sì":
 
 #parte 2
 
+#liste dei 3 prodotti
+
 Papera=["Papera di gomma", "5 euro", "20 pezzi"]
 Anello=["Anello di oro","50 euro", "10 pezzi"]
 Bracciale=["Bracciale in acciaio", "15 euro", "5 pezzi"]
 
-#aggiunta
+#aggiunta ad una lista
 inventario.append("osso")
 inventario.append("barca")
-#modifica
+#modifica ad una lista
 Papera[1]= "6 euro"
 Anello[2]= "20 pezzi"
-#rimuove
+#rimuove ad una lista
 Bracciale.remove("5 pezzi")
+#stampa lista aggiornata
+print(Papera)
+print(Anello)
+print(Bracciale)
 
 
 
