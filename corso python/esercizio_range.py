@@ -6,12 +6,12 @@ while controllo:
     
     
    
-    for i in range(numero, 0, -1):
+    for i in range(numero, 0, -1):  #stampa i numeri dal più grande al più piccolo
             print(i)
     
-    selezione1=input("Vuoi ripetere?")
+    selezione1=input("Vuoi ripetere?")  #chiede se ripetere l'operazione
     if selezione1 == "no":
-            break 
+            break                        #termina
 
 
 
