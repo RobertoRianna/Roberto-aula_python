@@ -20,24 +20,36 @@ while controllo:
        if numero1 > 0:
             for i in range(numero1,-1,-1):      #stampa dal numero inserito dall'utente a zero(compreso)
               print(i)
-              numero1-1
- #??????   
-#non mi fa aggiungere Else o Elif, neache break. se inserisco controllo = False non mi ferma il loop
+            if numero1<0:                       #SE IL NUMERO è MINORE DI 0 ESCE DAL CICLO
+                break
+              
+
+
+
+
+
             
         
-         
-         
-
-
-
 #Punto 3
 
+controllo= False     
 lista_numeri=[]
-for numero in lista_numeri:
-      
-    numero=int(input("Inserisci un numero: "))
-    print(numero * numero)
-    lista_numeri.append(numero)
+if controllo== False:
+    
+
+    for numero in lista_numeri:                     #!!!non entra nel for!!!!!
+        cliente=(input("Vuoi inserire un numero?  "))
+        if cliente == "sì":
+            numeri=int(input("Inserisci un numero: "))
+            lista_numeri.append(numeri)
+            numeri=numeri * 2
+            print(lista_numeri)
+        else:
+            controllo == True
+        
+        
+        
+
 
 
 
