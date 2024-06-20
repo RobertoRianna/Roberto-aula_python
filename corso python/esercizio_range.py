@@ -8,11 +8,10 @@ while controllo:
    
     for i in range(numero, 0, -1):
             print(i)
-    else:
-        print("Il numero è negativo")
-        selezione1=input("Vuoi ripetere?")
-    if selezione1 == "sì":
-            controllo:False 
+    
+    selezione1=input("Vuoi ripetere?")
+    if selezione1 == "no":
+            break 
 
 
 
