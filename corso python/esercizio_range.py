@@ -4,14 +4,14 @@ controllo= True
 while controllo:
     numero=int(input("Inserisci un numero:  "))
     
-    if selezione == "sì":
+    
    
-        for i in range(numero, 0, -1):
+    for i in range(numero, 0, -1):
             print(i)
     else:
         print("Il numero è negativo")
-        selezione=input("Vuoi ripetere?")
-        if selezione == "sì":
+        selezione1=input("Vuoi ripetere?")
+    if selezione1 == "sì":
             controllo:False 
 
 
