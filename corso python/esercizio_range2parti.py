@@ -17,30 +17,38 @@ while controllo:
             print("La lunghezza della stringa è pari")
         else:
             print("La lunghezza della stringa è dispari")
+    else:
+        break                                                   #esce dal ciclo
 
-#manca la chiusura del ciclo
+
 
 #parte 2
 
-controllo= True
+controllo= True                                                     #inserisco un controllo
 while controllo:
-    numero=input("Vuoi una lista dei numeri primi? (sì/no)")
-    numero1=int(input("Inserisci il primo numero: "))
-    numero2=int(input("Inserisci il secondo numero: "))
+    numero=input("Vuoi una lista dei numeri primi? (sì/no)")        #chiedo una scelta all'utente
+    numero1=int(input("Inserisci il primo numero: "))               #faccio inserireil primo numero
+    numero2=int(input("Inserisci il secondo numero: "))             #faccio inserire il secondo nuemro
 
     if numero== "sì":
         
         
         for i in range (numero1,numero2+1):         
-            if i%2 !=0:                                 #controllo numero primo
+            if i%2 !=0:                                     #controllo numero dispari
                 print(i)
     elif numero== "no":
         for i in range(numero1, numero2+1): 
-            if i%2 ==0:                                 #controlllo numero non primo
+            if i%2 ==0:                                     #controlllo numero pari
 
                 print(i)
     else:
-        break
+        break                                               #il ciclo termina
+
+
+
+
+
+
 
 
 
