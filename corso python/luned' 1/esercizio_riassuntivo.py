@@ -56,6 +56,8 @@ while controllo:
         print(Giovanni)                                                 #stampa lo spazio di memoria di dov'è contenuto
         print(Giovanni.voti)                                             #stampa i voti di Giovanni
         
+    else:
+        break
 
 
         
