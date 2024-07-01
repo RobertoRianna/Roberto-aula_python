@@ -6,7 +6,7 @@ while controllo:
     print("Menù di cosa ho imparato: ")                                        #ho creato un menù
     print("Dizionari (Digita: 1)")
     print("File esterno (Digita: 2)")
-    print("Funzioni (Digita: 3)")
+    print("Funzione random (Digita: 3)")
     print("Classi (Digita: 4)")
     utente=input("Inserisci cosa vuoi vedere: ")                                #prendo in input la scelta dell'utente
 
@@ -41,8 +41,9 @@ while controllo:
         lista=["uno","due","tre","quattro"]             #ci da un valore random che è presente nella lista
         print(choice(lista))
 
+
     elif utente == "4":
-        class Studenti:                                                 #abbiamo creato una classe
+        class Studenti:                                                 #creato una classe
             def __init__(self,nome,cognome,voti):                       #specifichiamo gli argomeni della classe
                 self.nome= nome 
                 self.cognome=cognome
@@ -50,7 +51,7 @@ while controllo:
             def visualizza_nome(self):                                   #funzione che ci stampa il nome
                 print(self.nome)
 
-        Giovanni= Studenti("Giovanni","Rossi",[6,7])
+        Giovanni= Studenti("Giovanni","Rossi",[5,8])
         Giovanni.visualizza_nome()                                      #stampa il nome di Giovanni
 
         print(Giovanni)                                                 #stampa lo spazio di memoria di dov'è contenuto
