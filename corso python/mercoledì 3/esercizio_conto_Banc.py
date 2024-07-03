@@ -19,14 +19,19 @@ class ContoBancario:
             print("Importo non presente")
     
     def visualizza_saldo(self):
-        print(self.__saldo)
+        print("Il saldo é: ",self.__saldo)
 
 
     def get_titolare(self):
-        return  self.__titolare
+        return self.__titolare
+    
+    def set_titolare(self,titolare):
+        self.__titolare = titolare
     
     def get_saldo(self):
         return self.__saldo
+
+    
 
 conto1= ContoBancario("rob",0)
 conto1.deposita()
@@ -36,6 +41,10 @@ x=conto1.get_titolare()
 y=conto1.get_saldo()
 print(x)
 print(y)
+
+
+
+
 
 
         
