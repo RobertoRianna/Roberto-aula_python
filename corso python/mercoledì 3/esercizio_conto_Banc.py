@@ -22,13 +22,20 @@ class ContoBancario:
         print(self.__saldo)
 
 
-#mi mancano i metodi getter e setter che non ho capito come si usano
-
+    def get_titolare(self):
+        return  self.__titolare
+    
+    def get_saldo(self):
+        return self.__saldo
 
 conto1= ContoBancario("rob",0)
 conto1.deposita()
 conto1.preleva()
 conto1.visualizza_saldo()
+x=conto1.get_titolare()
+y=conto1.get_saldo()
+print(x)
+print(y)
 
 
         
