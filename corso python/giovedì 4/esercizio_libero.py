@@ -29,6 +29,7 @@ class Tre_difensori(Squadra):                                                   
             pass
 
 
+
 class Quattro_difensori(Squadra):                                                                                           #creo la classe
     def __init__(self, nome, città,numero_difensori):                                                                       #metodo costruttore
         super().__init__(nome, città,numero_difensori)                                                                      #richiamo la classe padre con super()
