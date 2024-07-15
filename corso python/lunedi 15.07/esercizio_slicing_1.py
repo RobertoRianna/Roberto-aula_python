@@ -12,4 +12,7 @@ print(array1D[5:15])                #stampa gli elementi dall'indice 5 a 15(escl
 
 print(array1D[0:40:3])              #stampa gli elementi dell'array ogni 3 
 
+array1D [5:10] = 99                 #modifica gli elementi da 5 a 10(escluso) con 99
 print(array1D)
+
+
