@@ -4,7 +4,7 @@ import numpy as np
 def crea():                                                     #crea la matrice inserendo in input righe e colonne
     righe = int(input("Inserisci le righe: "))
     colonne = int(input("Inserire le colonne: "))               
-    matrice2D = np.random.rand(righe,colonne)
+    matrice2D = np.random.randint(righe,colonne)
     return matrice2D, righe, colonne
     
 def sotto_matrice(matrice2D,righe,colonne):
