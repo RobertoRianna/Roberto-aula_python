@@ -29,17 +29,32 @@ def menù():                                                                    
         elif utente == "2":
             print(aggiungi_tot)                                                                         #scelte dell'utente
         elif utente == "3":
-            print(totale_vendite1)
+            try:
+                print(totale_vendite1)
+            except:
+                print("la colonna non esiste")
         elif utente == "4":
-            print(prodotto_piu_venduto)
+            try:
+                print(prodotto_piu_venduto)
+            except:
+                print("La colonna non esiste")
         elif utente == "5":
-            print(vendite_citta)
+            try:
+                print(vendite_citta)
+            except:
+                print("la colonna non esiste")
         elif utente == "6":
-            print(df1)
+            try:
+                print(df1)
+            except:
+                print("La colonna non esiste")
         elif utente == "7":
             print(df_ordinato)
         elif utente == "8":
-            print(numero_vendite)
+            try:
+                print(numero_vendite)
+            except:
+                print("la colonna non esiste")
         else:
             break
 
