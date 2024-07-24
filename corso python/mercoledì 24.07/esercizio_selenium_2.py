@@ -27,6 +27,15 @@ def login(driver):
 
     bottone = driver.find_element(By.ID, "submit")
     bottone.click()
+    
+    time.sleep(5)
+    
+    if driver.title == "Logged In Successfully | Practice Test Automation":
+        print("Login effettuato")
+    else:
+        print("Login non riucito")
+    
+    driver.quit()
 
     time.sleep(5)
 
